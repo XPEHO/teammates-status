@@ -51,3 +51,5 @@ android/key.properties
 yaki_mobile/assets/cer/*.cer
 target/
 yaki_backend/.vscode/settings.json
+
+yaki_admin/package-lock.json

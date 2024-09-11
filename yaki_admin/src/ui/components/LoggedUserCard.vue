@@ -34,8 +34,8 @@ onMounted(fetchUser);
   >
     <figure class="user-card__avatar">
       <InitialAvatar
-        :firstname="user?.firstname"
-        :lastname="user?.lastname"
+        :firstname="user?.firstname || ''"
+        :lastname="user?.lastname || ''"
       />
     </figure>
     <div class="user-card__wrapper-user-infos">
