@@ -73,6 +73,7 @@ jobs:
           node-version: 18
       - name: Build and test Admin FrontEnd
         run: |
+          npm i
           npm ci
           npm run build
           npm run coverage
